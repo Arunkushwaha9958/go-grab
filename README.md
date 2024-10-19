@@ -1,50 +1,50 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+TODO App Documentation
 
-## Get started
+The app's primary goal is to help users organize and manage their tasks efficiently. The app uses SQLite for local data storage, ensuring that tasks are saved even when the app is closed.
+Group Lists:
 
-1. Install dependencies
+Users can create multiple task groups to organize tasks into categories (e.g., Work, Personal, Shopping).
+Each group helps to keep tasks structured and easy to manage.
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
+Todo Lists:
 
-   ```bash
-    npx expo start
-   ```
+Within each group, users can add and manage multiple tasks.
+Each task includes a title and a description to provide more detail.
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Task Management:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Users can mark tasks as completed or pending to keep track of progress.
+Tasks can be edited or deleted as needed, giving users full control over their lists.
 
-## Get a fresh project
+User Interface:
 
-When you're ready, run:
+The app features a clean and modern user interface inspired by design trends from Dribbble.
+The design is optimized for simplicity and ease of navigation, with a focus on providing a seamless user experience.
+//
 
-```bash
-npm run reset-project
-```
+Installation and Setup
+To run the application, users must have a compatible environment set up. The app is built with React Native and Expo, which allows it to run on both Android and iOS platforms. The SQLite integration handles local data storage on the device.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+How the App Works
+The app uses SQLite for managing all task data, ensuring that each task and group is saved to the local database. This means that users do not need an internet connection to access their tasks. Data is persisted across sessions, making the app reliable for offline use.
 
-## Learn more
+// 
 
-To learn more about developing your project with Expo, look at the following resources:
+Screens and Navigation
+Home Screen:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+The home screen displays all task groups with the option to add new ones.
+Users can easily navigate between different groups to see their tasks.
+Todo List Screen:
 
-## Join the community
+This screen displays all the tasks within a selected group, allowing users to manage their to-dos effectively.
+Task Creation/Editing Screen:
 
-Join our community of developers creating universal apps.
+Users can create new tasks or edit existing ones. The screen provides fields for both the task title and description.
+Task Details Screen:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This screen shows detailed information about a task, including options to edit or delete it.
+
